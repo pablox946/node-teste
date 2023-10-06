@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-type: application/json
+
+{
+"title": "video 1002",
+"description": "GUTS É GAY",
+"duration": 180 
+}
+
+###
+
+GET http://localhost:3333/videos?search=
+
+
+###
+PUT http://localhost:3333/videos/1af35d9d-e8b5-42c3-a061-fccc7d1666c7
+Content-type: application/json
+
+{
+"title":"cuidado camarada " ,
+"description":"ATENÇÃO ESTE VIDEO CONTEM CAVALO" ,
+"duration": 200
+}
+
+###
+
+DELETE http://localhost:3333/videos/f74270bf-fd0e-42f2-bcad-9b2def398047
